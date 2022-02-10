@@ -1,0 +1,64 @@
+/*Estilos da pagina index.html*/
+p{
+    font-size: 20px;
+}
+#p-foot{
+    line-height: 40px;
+    font-size: 12px;
+}
+h1{
+    font-size: 50px;
+    color: darkkhaki;
+}
+h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+.center{
+    text-align: center;
+}
+.center a:hover{
+    color: darkkhaki;
+}
+.container{
+    display: flex;
+    flex-flow: row;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+.p-30{
+    padding: 60px;
+}
+.br-50{
+    border-radius: 50%;
+}
+.wh400{
+    width: 400px;
+    height: 400px;
+}
+.h-40{
+    height: 40px;
+}
+.clique {
+    text-decoration: none;
+    color: green;
+}
+#menu{
+    background-color: rgb(233, 233, 233);
+    line-height: 75px;
+}
+#menu li{
+    display: inline;
+    padding: 30px;
+    justify-content: center; 
+    font-weight: bold; 
+}
+#menu li a{
+    text-decoration: none;
+    color: green;
+    font-size: 30px;
+}
+#menu li a:hover{
+    color: darkkhaki;
+}
